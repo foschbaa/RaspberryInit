@@ -15,8 +15,3 @@ sudo sed -i -e 's/PrintMotd yes/PrintMotd no/g' /etc/ssh/sshd_config
 sudo sed -i -e 's/#PrintLastLog yes/PrintLastLog no/g' /etc/ssh/sshd_config
 sudo systemctl restart sshd
 sudo systemctl restart ssh
-
-{ echo -e "\n\e[30;48;5;248m⮞⮞ Remove Dependency Packages That Are No Longer Needed ⮜⮜\e[0m"; } 2> /dev/null
-
-{ echo -e "\n\e[30;48;5;248m⮞⮞ Clean apt Cache ⮜⮜\e[0m"; } 2> /dev/null
-
