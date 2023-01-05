@@ -6,6 +6,8 @@ cd RaspberryInit
 sudo chown root:root  setup.sh
 sudo chmod +x setup.sh
 sudo ./setup.sh
+
+sudo raspi-update
 ```
 
 using on promt >> sudo raspi-update
