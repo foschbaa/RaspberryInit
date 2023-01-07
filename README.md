@@ -1,6 +1,6 @@
 # RaspberryInit
 ```
-sudo apt install git
+sudo apt install git -y
 git clone https://github.com/foschbaa/RaspberryInit.git
 cd RaspberryInit
 sudo chown root:root  setup.sh
